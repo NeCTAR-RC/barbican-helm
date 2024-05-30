@@ -14,6 +14,7 @@ policy_file=/etc/barbican/policy.yaml
 
 [oslo_middleware]
 enable_proxy_headers_parsing=True
+enforce_new_defaults=True
 
 [keystone_authtoken]
 auth_url={{ .Values.conf.keystone.auth_url }}
