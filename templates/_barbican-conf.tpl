@@ -11,10 +11,10 @@ ssl=True
 
 [oslo_policy]
 policy_file=/etc/barbican/policy.yaml
+enforce_new_defaults=True
 
 [oslo_middleware]
 enable_proxy_headers_parsing=True
-enforce_new_defaults=True
 
 [keystone_authtoken]
 auth_url={{ .Values.conf.keystone.auth_url }}
