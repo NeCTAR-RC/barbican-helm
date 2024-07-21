@@ -2,7 +2,7 @@ apiVersion: v2
 name: barbican
 description: A Helm chart for barbican
 type: application
-version: 1.1.0
+version: 1.2.0
 appVersion: 18.0.0-2-gd99764e6-1
 sources:
   - https://github.com/NeCTAR-RC/barbican-helm.git
@@ -13,5 +13,5 @@ dependencies:
   - bitnami-common
   version: 2.x.x
 - name: nectarlib
-  version: 1.7.3
+  version: 1.7.4
   repository: oci://registry.rc.nectar.org.au/nectar-helm
