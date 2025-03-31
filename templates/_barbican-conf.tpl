@@ -6,8 +6,11 @@ host_href={{ .Values.conf.host_href }}
 connection_recycle_time=600
 
 [oslo_messaging_rabbit]
-amqp_durable_queues=True
 ssl=True
+rabbit_quorum_queue=true
+rabbit_transient_quorum_queue=true
+rabbit_stream_fanout=true
+rabbit_qos_prefetch_count=1
 
 [oslo_policy]
 policy_file=/etc/barbican/policy.yaml
