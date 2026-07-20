@@ -2,8 +2,8 @@ apiVersion: v2
 name: barbican
 description: A Helm chart for barbican
 type: application
-version: 2.1.0
-appVersion: 20.0.0-4-g4bbe5e67-2-3
+version: 2.2.0
+appVersion: 20.0.0-5-gd4365b8a-4-5
 sources:
   - https://github.com/NeCTAR-RC/barbican-helm.git
 dependencies:
